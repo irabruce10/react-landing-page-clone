@@ -6,8 +6,8 @@ function Header() {
     <header>
       <div className={styles.header_wrapper}>
         <nav>
-          <ul>
-            <li>
+          <ul className={styles.navbar_one}>
+            <li cla>
               <a>Women</a>
             </li>
             <li>
@@ -77,7 +77,7 @@ function Header() {
         </div>
 
         <nav>
-          <ul>
+          <ul className={styles.navbar_two}>
             <li>
               <a>Help</a>
             </li>

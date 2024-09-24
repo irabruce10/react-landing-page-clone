@@ -1,6 +1,42 @@
+:root {
+  --primary-color: #001e60;
+}
+
 .header_wrapper {
   width: 100%;
-  height: 200px;
+  height: 46px;
+  margin: auto;
+  font-size: 0.75rem;
   background: #d5cbcb;
   display: flex;
+  justify-content: space-between;
+  color: var(--primary-color);
+  font-family: Area, sans-serif;
+  .navbar_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      padding-left: 10px;
+    }
+  }
+
+  .navbar_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    list-style: none;
+    left: 90%;
+    position: relative;
+
+    a {
+      text-decoration: none;
+      padding-left: 10px;
+    }
+  }
 }
