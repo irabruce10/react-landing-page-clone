@@ -6,12 +6,13 @@
   width: 100%;
   height: 46px;
   margin: auto;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   background: #d5cbcb;
   display: flex;
   justify-content: space-between;
   color: var(--primary-color);
   font-family: Area, sans-serif;
+  background: #f9f8f8;
   .navbar_one {
     display: flex;
     align-items: center;
@@ -38,5 +39,11 @@
       text-decoration: none;
       padding-left: 10px;
     }
+  }
+
+  .logo {
+    position: relative;
+    left: 13%;
+    top: -2%;
   }
 }

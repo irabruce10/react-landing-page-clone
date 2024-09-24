@@ -19,14 +19,14 @@ function Header() {
           </ul>
         </nav>
 
-        <div>
+        <div className={styles.logo}>
           <a
             href="/"
             data-ga="nav-primary-gateway"
             class="style_home-link__ZBxjg">
             <div class="style_logotype__w9ARi">
               <svg
-                width="298"
+                width="180"
                 height="48"
                 viewBox="0 0 298 48"
                 fill="none"
@@ -90,7 +90,7 @@ function Header() {
           </ul>
         </nav>
 
-        <Button />
+        <Button>Take your style quiz</Button>
       </div>
     </header>
   );
