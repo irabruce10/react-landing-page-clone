@@ -1,8 +1,9 @@
+import style from './Button.module.scss';
 function Button({ children }) {
   return (
-    <div>
-      <button>{children}</button>
-    </div>
+    <a href="/">
+      <button className={style.button_header}>{children}</button>
+    </a>
   );
 }
 
