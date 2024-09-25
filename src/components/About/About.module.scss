@@ -1,0 +1,14 @@
+.container {
+  background-color: rgb(134, 200, 188);
+  color: rgb(0, 30, 96);
+
+  .wrapper {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+
+    .items {
+      display: flex;
+    }
+  }
+}
