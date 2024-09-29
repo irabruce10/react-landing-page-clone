@@ -7,7 +7,7 @@ function About() {
         <h1>It's easy</h1>
         <h2>Here's how it works</h2>
         <div className={styles.items}>
-          <div className={styles.box}>
+          <div>
             <img src="https://res.cloudinary.com/stitch-fix/image/upload/q_auto/v1718416285/landing-pages/pages/US/gateway/SITE-FY24-Gateway%20Update%20V1%20and%20V1.5%20-1207050307893278/2_HIW/HIW-1-Top.svg" />
 
             <h3>
@@ -70,7 +70,9 @@ function About() {
         </div>
       </div>
 
-      <Button>Let's get started</Button>
+      <div className={styles.btn}>
+        <Button>Let's get started</Button>
+      </div>
     </div>
   );
 }

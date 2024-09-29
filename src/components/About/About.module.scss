@@ -5,11 +5,13 @@
   h1 {
     font-weight: 700;
     text-transform: uppercase;
+    font-family: Area, sans-serif;
   }
   h2 {
     font-family: Area, sans-serif;
     font-weight: normal;
     margin-top: 10px;
+    font-style: normal;
   }
 
   h3 {
@@ -44,5 +46,14 @@
 
       justify-content: space-between;
     }
+  }
+
+  .btn {
+    position: relative;
+    left: 12%;
+    padding-top: 2em;
+    padding-bottom: 4em;
+
+    text-align: center;
   }
 }
