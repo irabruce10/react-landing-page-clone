@@ -1,13 +1,14 @@
+import styles from './Production.module.scss';
 function Products() {
   return (
-    <div>
-      <div>
-        <div>
+    <div className={styles.products_container}>
+      <div className={styles.products_wrapper}>
+        <div className={styles.products_card}>
           <h1>What you get</h1>
           <h2>Your style on your budget</h2>
 
-          <div>
-            <div>
+          <div className={styles.card_products}>
+            <div className={styles.card_item}>
               <img
                 src="https://res.cloudinary.com/stitch-fix/image/upload/f_auto,q_auto/v1724105606/landing-pages/pages/US/men/Rebrand%20Launch%20'24/3_M_WIAF_1.jpg"
                 width="500"
