@@ -59,6 +59,12 @@ function Products() {
           </div>
         </div>
       </div>
+      <div className={styles.products_paragraph}>
+        <h3>
+          1,000s of brands + styles you know, plus <br /> exclusive labels
+          you'll&nbsp;love
+        </h3>
+      </div>
     </div>
   );
 }
